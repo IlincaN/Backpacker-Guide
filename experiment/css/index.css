@@ -18,6 +18,7 @@ body {
 
 h1 {
    font-size: 250%
+   font-family: 'Mina', sans-serif;
 }
 
 p {
@@ -35,6 +36,13 @@ p {
   box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
 	transform-style: inherit;
 }
+
+.nav navbar-nav{
+  font
+
+
+}
+
 
 img {
   position: absolute;
