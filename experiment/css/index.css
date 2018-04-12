@@ -41,11 +41,6 @@ p {
 	transform-style: inherit;
 }
 
-.nav navbar-nav{
-  font
-
-
-}
 
 
 img {
@@ -104,10 +99,14 @@ img:last-of-type {
   text-shadow: 0 2px 2px #000;
 }
 
+<<<<<<< HEAD
 #title {
   background-image: url("https://im4.ezgif.com/tmp/ezgif-4-d9c0da76b8.gif");
   z-index:2;
 }
+=======
+
+>>>>>>> dc9f6be2fb7ca2587a23fb506e02ac2ee6efcfd3
 
 #title h1 {
  transform: translateZ(.25px) scale(.75);
@@ -116,7 +115,7 @@ img:last-of-type {
 }
 
 #slide1:before {
-  position:absolute;
+  position:sticky;
   background-image: url("https://images.pexels.com/photos/721169/pexels-photo-721169.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
   transform: translateZ(-1px) scale(2);
 }
@@ -133,4 +132,29 @@ img:last-of-type {
 
 #slide4 {
   background: #222;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
