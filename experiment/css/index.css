@@ -100,18 +100,14 @@ img:last-of-type {
   text-shadow: 0 2px 2px #000;
 }
 
-#title {
-  background-image: url("https://lorempixel.com/640/480/abstract/6/");
-  z-index:2;
-}
-
-#title h1 {
- transform: translateZ(.25px) scale(.75);
- transform-origin: 50% 100%;
+#video{
+  width: 100vw;
 
 }
+
 
 #slide1:before {
+  position:absolute;
   background-image: url("https://images.pexels.com/photos/721169/pexels-photo-721169.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
   transform: translateZ(-1px) scale(2);
 }
