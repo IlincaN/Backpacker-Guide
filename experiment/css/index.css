@@ -19,6 +19,10 @@ body {
 h1 {
    font-size: 250%
    font-family: 'Mina', sans-serif;
+   color: #222;
+   text-align:center;
+   line-height: 300%;
+
 }
 
 p {
@@ -100,11 +104,16 @@ img:last-of-type {
   text-shadow: 0 2px 2px #000;
 }
 
-#video{
-  width: 100vw;
-
+#title {
+  background-image: url("https://im4.ezgif.com/tmp/ezgif-4-d9c0da76b8.gif");
+  z-index:2;
 }
 
+#title h1 {
+ transform: translateZ(.25px) scale(.75);
+ transform-origin: 50% 100%;
+
+}
 
 #slide1:before {
   position:absolute;
