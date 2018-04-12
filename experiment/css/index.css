@@ -37,11 +37,6 @@ p {
 	transform-style: inherit;
 }
 
-.nav navbar-nav{
-  font
-
-
-}
 
 
 img {
@@ -101,6 +96,7 @@ img:last-of-type {
 }
 
 #video{
+  position: relative;
   width: 100vw;
 
 }
@@ -124,4 +120,31 @@ img:last-of-type {
 
 #slide4 {
   background: #222;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
 }
