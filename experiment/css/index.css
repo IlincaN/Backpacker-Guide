@@ -99,14 +99,11 @@ img:last-of-type {
   text-shadow: 0 2px 2px #000;
 }
 
-<<<<<<< HEAD
+
 #title {
   background-image: url("https://im4.ezgif.com/tmp/ezgif-4-d9c0da76b8.gif");
   z-index:2;
 }
-=======
-
->>>>>>> dc9f6be2fb7ca2587a23fb506e02ac2ee6efcfd3
 
 #title h1 {
  transform: translateZ(.25px) scale(.75);
