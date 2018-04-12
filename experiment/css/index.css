@@ -97,13 +97,11 @@ img:last-of-type {
 
 #video{
   position: relative;
-  width: 100vw;
-
 }
 
 
 #slide1:before {
-  position:absolute;
+  position:sticky;
   background-image: url("https://images.pexels.com/photos/721169/pexels-photo-721169.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
   transform: translateZ(-1px) scale(2);
 }
@@ -121,7 +119,6 @@ img:last-of-type {
 #slide4 {
   background: #222;
 }
-
 
 
 ul {
@@ -144,7 +141,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
