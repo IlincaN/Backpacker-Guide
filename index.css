@@ -5,10 +5,10 @@ html {
   overflow: hidden;
 }
 
-title{
+h1{
   font-size: 300px;
   font-family: Helvetica;
-  color: #010101;
+  color: #082;
   text-align: center;
   text-shadow: 3px 3px #010101;
   text-decoration: overline,underline;
